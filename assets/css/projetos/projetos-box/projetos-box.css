@@ -1,0 +1,39 @@
+/*Mobile 0 - 425px*/
+.projetos__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 10px;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .projetos__box {
+    display: flex;
+    flex-direction:none ;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .projetos__box {
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+    align-content: flex-start;
+    padding-top: 2rem;
+  }
+  .projetos__box:nth-child(n) {
+    flex-direction: row-reverse;
+  }
+  .projetos__box:nth-child(2n) {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .projetos__box {
+    margin: auto;
+  }
+}

@@ -1,0 +1,35 @@
+/*Mobile 0 - 425px*/
+.skills__linha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 5%;
+  justify-content: center; /* adicione essa linha */
+  align-items: center; /* adicione essa linha */
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .skills__linha li {
+    display: flex;
+    justify-content: center; /* adicione essa linha */
+    align-items: center; /* adicione essa linha */
+    gap: 1rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .skills__linha {
+    gap: 1rem; 
+    justify-content: center; /* adicione essa linha */
+    align-items: center; /* adicione essa linha */
+  } 
+}
+@media screen and (min-width: 1440px) {
+  .skills__linha {
+    justify-content: center; /* adicione essa linha */
+    align-items: center; /* adicione essa linha */
+  }
+}

@@ -1,0 +1,23 @@
+/*Mobile 0 - 425px*/
+.formcontato--esquerda img {
+  display: none;
+}
+
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .formcontato--esquerda img {
+    display: none;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .formcontato--esquerda img {
+    display: block;
+    width: 28rem;
+    height: 40rem;
+    object-fit: cover;
+
+  }
+}

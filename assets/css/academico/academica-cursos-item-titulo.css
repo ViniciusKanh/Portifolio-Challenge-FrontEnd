@@ -1,0 +1,22 @@
+/*Mobile 0 - 425px*/
+.academica__cursos__item__titulo {
+  color: var(--branco);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .academica__cursos__item__titulo {
+    font-size: 1.2rem;
+  }
+  
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .academica__cursos__item__titulo {
+ font-size: 1.4rem;
+  }
+  
+}

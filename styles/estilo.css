@@ -1,0 +1,125 @@
+:root {
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --cor-de-destaque: #5F9EA0;
+    --cor-texto: #333;
+ }
+ 
+ body {
+     box-sizing: border-box;
+     background-color: var(--cor-de-fundo);
+     font-family: 'Raleway', sans-serif;
+     margin: 0;
+     padding: 0;
+     line-height: 1.6;
+ }
+ 
+ ol, ul, li {
+     list-style: none;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: var(--cor-de-link);
+ }
+ 
+ /* Sessão Menu */
+ 
+ section.menu {
+     background-color: var(--cor-de-destaque);
+     color: white;
+     padding: 1em;
+ }
+ 
+ section.menu h3.menu__title {
+     margin: 0;
+ }
+ 
+ section.menu ul.menu__list {
+     padding: 0;
+ }
+ 
+ section.menu ul.menu__list li.menu__list__item {
+     margin-bottom: 0.5em;
+ }
+ 
+ /* Sessão Title */
+ 
+ section.title {
+     background-color: var(--cor-texto);
+     color: white;
+     padding: 2em 1em;
+ }
+ 
+ section.title h2.title__bio {
+     margin: 0 0 0.5em 0;
+ }
+ 
+ /* Sessão About */
+ 
+ section.about {
+     padding: 2em 1em;
+ }
+ 
+ section.about p.about__paragraph {
+     margin: 0 0 1em 0;
+ }
+ 
+ /* Sessão Skills */
+ 
+ section.skills {
+     background-color: var(--cor-de-fundo);
+     padding: 2em 1em;
+ }
+ 
+ section.skills h3.skills__title {
+     margin-bottom: 1em;
+ }
+ 
+ /* Sessão Hobbies */
+ 
+ section.hobbies {
+     padding: 2em 1em;
+ }
+ 
+ /* Experiência Acadêmica */
+ 
+ section.academic {
+     background-color: var(--cor-de-fundo);
+     padding: 2em 1em;
+ }
+ 
+ /* Experiência Profissional */
+ 
+ section.experience {
+     padding: 2em 1em;
+ }
+ 
+ /* Contato */
+ 
+ section.formcontato {
+     background-color: var(--cor-de-fundo);
+     padding: 2em 1em;
+ }
+ 
+ /* Footer */
+ 
+ section.footer {
+     background-color: var(--cor-texto);
+     color: white;
+     padding: 2em 1em;
+     text-align: center;
+ }
+ 
+ /* Tablet */
+ 
+ @media (min-width: 768px) {
+     /* Aqui você pode adicionar estilos específicos para dispositivos com largura de tela de 768px ou mais */
+ }
+ 
+ /* Mobile */
+ 
+ @media (min-width: 425px) {
+     /* Aqui você pode adicionar estilos específicos para dispositivos com largura de tela de 425px ou mais */
+ }
+ 

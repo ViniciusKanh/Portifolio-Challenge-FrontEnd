@@ -1,0 +1,9 @@
+/*Mobile 0 - 425px*/
+.academica {
+  background-color: var(--cor-do-gif);
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}

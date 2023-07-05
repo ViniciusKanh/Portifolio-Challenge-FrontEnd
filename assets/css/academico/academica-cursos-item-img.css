@@ -1,0 +1,49 @@
+/*Mobile 0 - 425px*/
+.academica__cursos__item__img {
+  background: var(--branco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  width: 18.5rem;
+  /* padding: 1rem;
+  gap: 0.625rem; */
+
+  border-radius: 25px;
+  border: 0.5px solid var(--um-azul);
+
+  /* transition: .3s;
+  box-shadow: 1px 1px 1px var(--preto-meio);
+  position: relative; */
+}
+
+.academica__cursos__item__img img {
+  width: 10rem;
+  /* height: 10rem; */
+}
+
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .academica__cursos__item__img {
+    height: 10rem;
+  }
+
+  .academica__cursos__item__img img {
+    width: 10rem;
+    /* height: 5rem; */
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .academica__cursos__item__img {
+    height: 12rem;
+    width: 19rem;
+  }
+
+  .academica__cursos__item__img img {
+    width: 12rem;
+    /* height: 8rem;*/
+  } 
+}

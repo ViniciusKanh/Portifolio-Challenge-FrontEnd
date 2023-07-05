@@ -1,0 +1,21 @@
+/*Mobile 0 - 425px*/
+.projetos__texto {
+  color: var(--preto-claro);
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform:lowercase ;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .projetos__texto {
+    font-size: 1.1rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .projetos__texto {
+    font-size: 1.2rem;
+  }
+}

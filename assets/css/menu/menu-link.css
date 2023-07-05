@@ -1,0 +1,43 @@
+/*Mobile 0 - 425px*/
+.menu__link {
+  text-decoration: none;
+  display: none;
+  font-size: 0.8rem;
+  color: var(--branco);
+}
+
+.menu__link:hover {
+  text-decoration: underline overline;
+  text-underline-offset: 6px;
+}
+.menu__link.ativo{
+  color: var(--branco);
+  display: block;
+  font-weight: 500;
+}
+.menu__link:hover.ativo{
+  text-decoration: underline;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .menu__link.ativo{
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 1rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .menu__link {
+    display: block;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .menu__link.ativo{
+    color: var(--branco);
+    font-weight: bold;
+    cursor: context-menu;
+  }
+}

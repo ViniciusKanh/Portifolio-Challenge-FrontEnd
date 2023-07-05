@@ -1,0 +1,27 @@
+/*Mobile 0 - 425px*/
+.menu__navegacao{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .menu__navegacao {
+    padding: 1rem 0;
+  }  
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .menu__navegacao {
+    font-style: normal;
+    font-weight: 500;
+    gap: 1.2rem;
+  }
+
+}

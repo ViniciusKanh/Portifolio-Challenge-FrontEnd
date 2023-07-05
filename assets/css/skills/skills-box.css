@@ -1,0 +1,68 @@
+/*Mobile 0 - 425px*/
+.skills__box {
+  background: var(--branco);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center; /* adicione essa linha */
+  align-items: center; /* adicione essa linha */
+  height: 7.375rem;
+  width: 8rem;
+  border-radius: 25px;
+  border: 0.5px solid var(--um-laranja);
+  padding: 10%;
+}
+
+.skills__box {
+  transition: .3s;
+  box-shadow: 2px 2px 2px var(--preto-meio);
+  position: relative;
+  justify-content: center; /* adicione essa linha */
+  align-items: center; /* adicione essa linha */
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .skills__box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 14rem;
+    height: 7.375rem;
+    gap: 8px;
+    justify-content: center; /* adicione essa linha */
+    align-items: center; /* adicione essa linha */
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .skills__box {
+    height: 10rem;
+    justify-content: center; /* adicione essa linha */
+    align-items: center; /* adicione essa linha */
+  }
+  
+  .skills__box:hover {
+    transition: .3s;
+    box-shadow: 2px 3px 2px var(--cor-do-link);
+    position: relative;
+    justify-content: center; /* adicione essa linha */
+    align-items: center; /* adicione essa linha */
+  }
+}
+@media screen and (min-width: 1440px) {
+  .skills__box {
+    width: 15rem;
+    height: 14rem;
+    justify-content: center; /* adicione essa linha */
+    align-items: center; /* adicione essa linha */
+  }
+}
+
+.skills__box {
+  /* seu código existente */
+  animation: glowing 2s infinite;
+  border-color: #33ccff;
+}

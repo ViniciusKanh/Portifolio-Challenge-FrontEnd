@@ -1,0 +1,14 @@
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .formcontato__contato {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .formcontato__contato {
+    justify-content: center;
+  }
+}

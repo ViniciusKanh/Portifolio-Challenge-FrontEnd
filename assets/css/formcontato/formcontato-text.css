@@ -1,0 +1,24 @@
+/*Mobile 0 - 425px*/
+.formcontato__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .formcontato__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  
+}

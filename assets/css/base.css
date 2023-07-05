@@ -1,0 +1,56 @@
+:root {
+  /*cores*/
+  --azul-mas-claro:      #EAF2FD;
+  --azul-claro:          #D4E4FA;
+  --azul-pouco-claro:    #5595E9;
+  --azul:                #2A7AE4;
+  --branco:              #FFFFFF;
+  --banco-menos-branco:  #F5F5F5;
+  --cor-bg:              #E5E5E5;
+  --cor-bg-escuro:       #0D1117;
+  --cor-de-fundo:        #F5F5F5;
+  --cor-do-link:         #000000;
+  --preto-meio:          #888888;
+  --preto-escuro:        #303030;
+  --preto-claro:         #464646;
+  --preto-mas-claro:     #C8C8C8;
+  --preto-bem-claro:     #EDEDED;
+  --menu:                #15222E;
+  --um-roxo:             #7526AD;
+  --um-laranja:          #FF8C02;
+  --um-azul:             #051933;
+  --cor-do-gif:          #39434d;
+  --cor-do-gif-btn:      #324354;
+  --cor-do-gif-btn-b:    #2A435C;
+
+  --preto-escuro-alpha-6:  rgba(30, 30, 30, 0.6);
+  --preto-escuro-alpha-8:  rgba(30, 30, 30, 0.8);
+  
+  --preto-claro-alpha-6:   rgba(46, 46, 46, 0.6);
+  --preto-claro-alpha-8:   rgba(46, 46, 46, 0.8);
+  
+  --branco-claro-alpha-6:   rgba(255, 255, 255, 0.6);
+  --branco-claro-alpha-8:   rgba(255, 255, 255, 0.8);
+
+  --font-raleway: 'Raleway' sans-serif;
+  --font-dev: 'Oxanium', cursive;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto !important;
+}
+
+/* .geral {
+  max-width: 90rem; 
+  margin: 0 auto;
+  /* padding: 0 2rem;
+} 
+*/

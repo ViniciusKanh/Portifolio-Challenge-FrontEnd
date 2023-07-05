@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) {
+  .skills__hobbies {
+    background-color: var(--cor-bg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    animation: pulse 3s infinite; /* Move this inside your media query if you only want the animation to occur for screens of at least 1024px width */
+  }
+}

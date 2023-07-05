@@ -1,0 +1,23 @@
+/*Mobile 0 - 425px*/
+.titulo__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 0.8rem;
+  color: var(--preto-claro);
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .titulo__container {
+    gap: 1rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .titulo__container {
+    gap: 1.5rem;
+  }
+}

@@ -1,0 +1,79 @@
+/*Mobile 0 - 425px*/
+.formcontato__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.8rem;
+  align-self: stretch;
+}
+
+.formcontato__input {
+  display: block;
+  padding-top: 0.5rem;
+  align-self: stretch;
+  height: 3.5rem;
+}
+
+textarea::placeholder {
+  color: var(--preto-mas-claro);
+}
+input::placeholder {
+  color: var(--preto-mas-claro);
+}
+
+.formcontato__textarea, .formcontato__input {
+  border: none;
+  border-radius: 0.25rem;
+  background-color: var(--branco);
+  padding: 0.625rem 1.563rem;
+  align-self: stretch;
+  box-shadow: 0.063rem 0.063rem 0.063rem 2px var(--branco-claro-alpha-8);
+}
+
+.formcontato__botao {
+  width: 10.3rem;
+  height: 3.18rem;
+
+  transition: all .3s ease-in-out;
+  
+    &:hover {
+      background-color: var(--menu);
+      cursor: pointer;
+      color: var(--branco);
+      /* box-shadow:inset 0 0 0 1px var(-preto-escuro-alpha-6); */
+      box-shadow: -0.125rem 0.125rem 1rem var(--preto-escuro-alpha-6);
+    }
+  
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  
+    &:active {
+      /* box-shadow:inset 0 0 0 1px var(-preto-escuro-alpha-8); */
+      box-shadow: -0.25rem 0.25rem 1.5rem var(--preto-escuro-alpha-);
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .formcontato__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8rem;
+    align-self: stretch;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .formcontato__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8rem;
+    align-self: stretch;
+  }
+  
+}

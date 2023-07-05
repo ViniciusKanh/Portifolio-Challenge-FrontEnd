@@ -1,0 +1,27 @@
+/*Mobile 0 - 425px*/
+.titulo__bio {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+}
+
+.titulo__bio em {
+  font-family: var(--font-dev);
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .titulo__bio {
+    font-size: 1.563rem;
+    line-height: 1.625rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .titulo__bio {
+    font-size: 2.813rem;
+    line-height: 3.813rem;
+  }
+}

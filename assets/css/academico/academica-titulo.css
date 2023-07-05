@@ -1,0 +1,21 @@
+/*Mobile 0 - 425px*/
+.academica__titulo {
+  font-size: 1.375rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--branco);
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .academica__titulo {
+    font-size: 1.5rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .academica__titulo {
+    font-size: 2rem;
+  }
+}

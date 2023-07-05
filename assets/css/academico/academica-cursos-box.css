@@ -1,0 +1,21 @@
+/*Mobile 0 - 425px*/
+.academica__cursos__box {
+  width: 18.5rem;
+  height: 12rem;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .academica__cursos__box {
+    width: 18.5rem;
+    height: 15rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .academica__cursos__box {
+    width: 20rem;
+    height: 17rem;
+  }
+}

@@ -1,0 +1,23 @@
+/*Mobile 0 - 425px*/
+.skills__titulo {
+  /* color: var(--preto-claro); */
+  color: var(--um-laranja);
+  text-align: center;
+  font-size: 1.375rem;
+  font-weight: 700;
+  
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .skills__titulo {
+    font-size: 1.5rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .skills__titulo {
+    font-size: 2rem;
+  }
+}

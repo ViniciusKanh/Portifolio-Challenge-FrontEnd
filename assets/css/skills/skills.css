@@ -1,0 +1,37 @@
+/*Mobile 0 - 425px*/
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: center; /* adicione essa linha */
+  align-items: center; /* adicione essa linha */
+}
+
+/*Desktop*/
+@media screen and (min-width: 1440px) {
+  .skills {
+    margin: 0 0 0 12rem;
+    justify-content: center; /* adicione essa linha */
+    align-items: center; /* adicione essa linha */
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes glowing {
+  0% {box-shadow: 0 0 5px var(--um-laranja), 0 0 10px var(--um-laranja), 0 0 15px var(--um-laranja), 0 0 20px var(--um-laranja);}
+  50% {box-shadow: 0 0 10px var(--um-laranja), 0 0 20px var(--um-laranja), 0 0 30px var(--um-laranja), 0 0 40px var(--um-laranja);}
+  100% {box-shadow: 0 0 5px var(--um-laranja), 0 0 10px var(--um-laranja), 0 0 15px var(--um-laranja), 0 0 20px var(--um-laranja);}
+}
+
+
+

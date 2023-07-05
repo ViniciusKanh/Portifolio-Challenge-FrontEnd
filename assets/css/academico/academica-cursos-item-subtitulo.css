@@ -1,0 +1,21 @@
+/*Mobile 0 - 425px*/
+.academica__cursos__item__subtitulo {
+  color: var(--branco);
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .academica__cursos__item__subtitulo {
+    font-size: 0.875rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .academica__cursos__item__subtitulo {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,25 @@
+/*Mobile 0 - 425px*/
+.menu__titulo {
+  color: var(--branco);
+  font-family: var(--font-dev);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .menu__titulo {
+    font-family: var(--font-dev);
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .menu__titulo {
+    font-family: var(--font-dev);
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}

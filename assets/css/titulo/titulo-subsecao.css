@@ -1,0 +1,23 @@
+/*Mobile 0 - 425px*/
+.titulo__subsecao {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1rem;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .titulo__subsecao {
+    font-size: 1.25rem;
+    line-height: 1.188rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .titulo__subsecao {
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+  }
+}

@@ -1,0 +1,28 @@
+/*Mobile 0 - 425px*/
+.hobbies__titulo {
+  /* color: var(--preto-claro); */
+  color: var(--um-roxo);
+  text-align: center;
+  font-size: 1.375rem;
+  font-weight: 700;
+  justify-content: center; /* adicione essa linha */
+  align-items: center; /* adicione essa linha */
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .hobbies__titulo {
+    font-size: 1.5rem;
+    justify-content: center; /* adicione essa linha */
+    align-items: center; /* adicione essa linha */
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .hobbies__titulo {
+    font-size: 2rem;
+    justify-content: center; /* adicione essa linha */
+    align-items: center; /* adicione essa linha */
+  }
+}

@@ -1,0 +1,23 @@
+/*Mobile 0 - 425px*/
+.titulo__network {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 2px;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .titulo__network {
+    gap: 25px;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .titulo__network {
+    align-items: center;
+    gap: 29px;
+  }
+}

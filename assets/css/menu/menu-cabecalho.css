@@ -1,0 +1,15 @@
+/*Mobile 0 - 425px*/
+.menu__cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px;
+  gap: 0.5rem;
+}
+@media screen and (min-width: 1440px) {
+  .menu__cabecalho {
+    justify-content: space-between;
+    width: 1440p;
+  }
+}

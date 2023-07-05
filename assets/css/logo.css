@@ -1,0 +1,20 @@
+/*Mobile 0 - 425px*/
+.logo {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 1.8rem;
+  height: 1.8rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 2.2rem;
+  height: 2.2rem;
+  }
+}
